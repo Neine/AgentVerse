@@ -43,8 +43,8 @@ Note: The notebook imports from the `agents` package (OpenAI Agents SDK).
 
 ENVIRONMENT SETUP
 -----------------
-Create a `.env` file in the project root (same folder as SalesAgent.ipynb)
-with the following variables:
+Create a `.env` file in the repository root (one level above this notebook,
+which lives in SalesAgent/) with the following variables:
 
   OPENAI_API_KEY=your_openai_api_key_here
   SENDGRID_API_KEY=your_sendgrid_api_key_here
@@ -155,6 +155,7 @@ TROUBLESHOOTING
 
 RELATED FILES
 -------------
-  SalesAgent.ipynb   Main notebook
-  .env                 Local API keys (create this yourself; not in repo)
-  .gitignore           Excludes secrets and virtual environments
+  SalesAgent/SalesAgent.ipynb        Main notebook
+  SalesAgent/SalesAgent-ReadMe.txt   This file
+  .env                                Local API keys at repo root (not in repo)
+  .gitignore                          Excludes secrets and virtual environments
